@@ -21,6 +21,7 @@ EstadoLeitura classificar_leitura(double valor) {
     }
 }
 
+
 const char *estado_como_texto(EstadoLeitura estado) {
     switch (estado) {
         case LEITURA_INVALIDA:
